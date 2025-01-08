@@ -18,9 +18,9 @@ export default function App() {
  <div className="w-full   bg-slate-800 ">
 
 
-  <div className="w-full h-screen text-white flex flex-col items-center justify-between gap-10 pb-24 overflow-y-hidden">
+  <div className="w-full max-h-fit text-white flex flex-col items-center justify-between gap-10 pb-24 overflow-y-hidden">
       <Nav/>
-  <MatterComponent/>
+  {/* <MatterComponent/> */}
 
         <Body />
       
