@@ -4,9 +4,9 @@ import ImgleftComp from "../Components/imgleftComp";
 import ImgrightComp from "../Components/imgrightComp";
 import Connect from "../Components/Connect";
 
-function ProjectWork() {
+function ProjectWork({sectionRef}) {
   return (
-    <div className="w-full h-full flex items-center justify-center">
+    <div ref={sectionRef} className="w-full h-full flex items-center justify-center">
       <div className="w-[80%] min-h-screen text-white">
           <h1 className="w-full  py-1 flex items-center justify-center  text-3xl md:text-5xl text-sky-600 z-10 relative ">
           Latest Works

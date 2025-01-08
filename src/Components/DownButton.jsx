@@ -1,7 +1,7 @@
-function DownButton() {
+function DownButton({scrollToSection}) {
   return (
     <div className="w-fit   relative ">
-      <button className=" px-3 py-1  hover:scale-110 ease-in-out duration-100 bg-[#4595eb] md:py-2 md:px-5 rounded font-semibold bg-gradient-to-l from-[#1595b6] to-[#1f2667e6] group self-center ">
+      <button onClick={scrollToSection} className=" px-3 py-1  hover:scale-110 ease-in-out duration-100 bg-[#4595eb] md:py-2 md:px-5 rounded font-semibold bg-gradient-to-l from-[#1595b6] to-[#1f2667e6] group self-center ">
         Latest Work{" "}
         <svg
           xmlns="http://www.w3.org/2000/svg"
