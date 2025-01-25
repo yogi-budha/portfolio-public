@@ -315,7 +315,7 @@ function Connect() {
         </svg>
       </div>
 
-      <div className="w-[90%] md:w-[80%] flex flex-col gap-5 md:gap-10 ">
+      <div className="w-[70%] md:w-[80%] flex flex-col gap-5 md:gap-10 px-16 text-white ">
         <div>
           <div>
             <label

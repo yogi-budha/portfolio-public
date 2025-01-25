@@ -10,13 +10,12 @@ function ImgleftComp({title,description,image}) {
         <div className="h-8 w-8 rounded-full md:border-[3px] md:border-[#1788ae] top-2/4 -translate-y-1/2   -right-9  -translate-x-1/2 md:bg-[#111] z-10 hover:scale-110 ease-in-out duration-100 absolute    "></div>
         <img
           className=" w-[700px] md:w-[450px] relative drop-shadow-[0_35px_35px_rgba(135,206,235,0.25)] "
-          src={yogesh}
+          src={image}
           alt=""
         />
       </div>
       <div className="w-full md:w-[45%] flex gap-3 flex-col px-6 py-3">
         <h1 className="text-2xl md:text-5xl">{title}</h1>
-        <p className="text-lg md:text-2xl">(Event Booking)</p>
         <p className="text-lg w-full">{description}
         </p>
 

@@ -3,7 +3,7 @@ function Body() {
     <div className="w-full flex items-center justify-center ">
       <div className=" w-[95%] md:w-[60%] flex flex-col">
 
-        <div className="flex relative flex-col ml-12 gap-10 ">
+        <div className="flex relative flex-col ml-12 gap-10  ">
         <svg
   version="1.0"
   className=" pointer-events-none  w-[500px] md:w-[1200px] top-1/2 absolute left-1/2 -translate-x-1/2 md:top-72 -translate-y-1/2"
@@ -28,8 +28,8 @@ function Body() {
   </g>
 </svg>
        
-       
-        <h1 className=" text-4xl md:text-8xl z-20 pointer-events-none">Yogesh Budha</h1>
+       <div className="mt-32 z-20 flex flex-col  gap-7 justify-between">
+                <h1 className=" text-4xl md:text-8xl z-20 pointer-events-none">Yogesh Budha</h1>
         <p className="italic items-center z-20 pointer-events-none text-xl md:text-3xl">MERN Stack Developer</p>  
         <div className="w-fit   relative  ">
             <button className=" px-3 py-1 hover:scale-110 ease-in-out duration-100   bg-[#4595eb]  md:py-2 md:px-5 rounded font-semibold bg-gradient-to-l from-[#1595b6] to-[#1f2667e6] group self-center">About me <svg
@@ -52,9 +52,12 @@ function Body() {
         -170 -6z"
       />
     </g>
-  </svg></button>
+  </svg>
+  </button>
        
         </div>
+       </div>
+
         
         </div>
 
